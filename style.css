@@ -80,3 +80,30 @@ footer {
   height: 50px;
   background-color: #aaaaaa;
 }
+
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 90%;
+    display: block;
+    padding: 50px 0;
+  }
+
+  .contents {
+    width: 100%;
+    
+
+  }
+
+  .contents:nth-child(2) {
+    margin: 20px 0;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+
+}
+
+
